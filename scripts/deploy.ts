@@ -14,7 +14,7 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const TwitterContract = await ethers.getContractFactory("Account");
+  const TwitterContract = await ethers.getContractFactory("TwitterContract");
   // const Greeter = await ethers.getContractFactory("Greeter");
   // const greeter = await Greeter.deploy("Hello, Hardhat!");
 
